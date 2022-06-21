@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University website design</title>
+        <link herf="style.css" rel="stylesheet">
+    </head>
+   <body>
+       <section class="header">
+</section>
+       <form action="student.php">
+         <div><b>Register here to create an account.</b></div>
+           <label>First name: </label>
+           <input type="text" name="fname" id="fname" required><br><br>
+           <label>Middle name: </label>
+           <input type="text" name="mname" id="mname"><br><br>
+           <label>Last name: </label>
+           <input type="text" name="lname" id="lname" required><br><br>
+           <label>Username: </label>
+           <input type="text" name="uname" id="uname" required><br><br>
+           <label>Date of birth: </label>
+           <input type="date" name="dob" id="dob" value="" reqired><br><br>
+           <label for="pass">Password (8 characters minimum): </label>
+           <input type="password" name="pass" id="pass" minlength="8" 
+           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and atleast 8 or more characters" required><br><br>
+           <label>Curriculum vitae(CV): </label>
+           <input type="file" name="cv" id="cv" required><br><br>
+           <br><br>
+           <div><b>Contact: </b></div>
+           <label>Email: </label>
+           <input type="email" name="email" id="email" required><br><br>
+           <label>Mobile number: </label>
+           <input type="tel" name="mob" id="mob" placeholder="+255123456789" required>
+           <small> (Format: +255123456789) </small><br><br>
+           <label>Social media username(either Facebook, Twitter or Instagram): </label>
+           <input type="text" name="mob" id="mob" ><br><br>
+           
+           <div><strong>Alumni</strong></div>
+           <label>Alumnus name: </label>
+           <input type="text" name="alumni" id="alumni" maxlength="30">
+           <label>Year of enrolment: </label>
+           <input type="year" name="yoe" id="yoe">
+           <label>Year of graduation: </label>
+           <input type="year" name="yog" id="yog">
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+       </form>
+   </body>
+    
+</html>

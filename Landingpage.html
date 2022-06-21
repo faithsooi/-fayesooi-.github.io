@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingHome</title>
+    <link rel="stylesheet" href="formstyle2.css" type="text/css" />
+</head>
+<style>
+    body{
+        box-sizing:border-box;
+        margin:0;
+        height:100vh;
+        width:100vw;
+        background-image: url(200.png);
+        margin-top: 25px;
+        background-size: cover;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 1;
+      }
+      .thetext{
+        position:absolute;
+        bottom: 30px;
+        left: 10px;
+        color: grey;
+        padding-left: 200px;
+      }
+      .loylogo{
+        position: absolute;
+        bottom:10px;
+        left:10px;
+        width: 100px;
+        height: 100px;
+        display: block;
+      }
+      .words {
+    font: bolder;
+    font-size: larger;
+    font-style: italic;
+    position: absolute;
+    background-size: 100% 100%;
+    text-align: center;
+    text-decoration: wavy;
+    background-color: rgb(95, 93, 93);
+    color: rgb(8, 0, 0);
+    padding-top: 45px;
+}	
+.mlingar {
+    font-size: larger;
+    font-family: Verdana,  Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(99, 81, 81);
+}
+nav {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+#sideNav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    right: -25px;
+    top: 10px;
+    background-color: gray;
+    z-index: 2;
+    transition: 0.5s;
+    color: gold;
+}
+nav a{
+    text-decoration: grey;
+    color: rgb(39, 109, 170);
+}
+#manu {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#manu img{
+    width: 20px;
+    margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(117, 114, 114);
+}
+ul {
+  list-style-type: none;
+  margin-right: auto;
+  padding: 0;
+}
+
+li {
+  display: inline;
+ } 
+ .joker{
+  filter: blur(5px);
+ }
+
+/*ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+/* } */
+</style>
+<body>
+    <div id="sidenav"> 
+    <nav>
+        <ul>
+      <li><a href="Landingpage.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li> 
+       <li><a href="registeruser.html">REGISTER</a></li>   
+       <li><a href="alumni.html">ALUMNI</a></li>
+     <li><a href="staff.html">STAFF</a></li>
+      <li><a href="contacts.html">CONTACTS</a></li>  
+        </ul>
+    </nav>
+</div>
+    
+    <div class="container">
+        <div class="theimage"></div>
+        <div class="loylogo">
+            <img src="logoo.jpg">
+        </div>
+        <div class="thetext">
+            <h1 class="thetitle">LOYOLA HIGH SCHOOL</h1>
+        </div>
+        <div>
+            <p class="words">
+              <strong> Welcome to Loyola High School. </strong> <br><br>
+                Loyola High School is a Jesuit Secondary School offering quality education. It is a Catholic School open to both boys and girls of all religious persuasions.
+                Loyola stands for excellence in both academics and human formation. The goal held out to all students at Loyola High School is integrated personal development as individuals and as members of the larger society.
+                Each student therefore is challenged to develop fully with a vibrant desire to work for the development of the neighbor and of the nation, and that each student progressively becomes a better person and therefore a person for others.</p>
+          
+        </div>
+</body>
+</html>
